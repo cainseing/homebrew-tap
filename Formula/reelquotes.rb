@@ -1,24 +1,24 @@
 class Reelquotes < Formula
   desc "Display a random movie quote in your terminal"
   homepage "https://reelquotes.app"
-  version "1.0.0"
+  version "1.1.0"
   license "MIT"
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://raw.githubusercontent.com/cainseing/reelquotes-cli/v1.0.0/bin/reelquotes-darwin-arm64"
-      sha256 "43e66745766bd183f363f82ae973f8bf1d2b3058397ab9a86f15b1a95dc556c5"
+      url "https://raw.githubusercontent.com/cainseing/reelquotes-cli/v1.1.0/bin/reelquotes-darwin-arm64"
+      sha256 "85c67b351c33f222720a4f1307a38af9fef19bd0d689771ff2b3cc61565f1913"
     else
-      url "https://raw.githubusercontent.com/cainseing/reelquotes-cli/v1.0.0/bin/reelquotes-darwin-amd64"
-      sha256 "bbcc93303fc317b7bdf948363d2d59eb3c43edc5224f70d6d7547107aea47067"
+      url "https://raw.githubusercontent.com/cainseing/reelquotes-cli/v1.1.0/bin/reelquotes-darwin-amd64"
+      sha256 "080f571bd140c63e12b5e91ff3694997a1291291316089edb81b3ddd8043b9dc"
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
-      url "https://raw.githubusercontent.com/cainseing/reelquotes-cli/v1.0.0/bin/reelquotes-linux-arm64"
-      sha256 "96112483e6337993ec8428c2cf78a2f04298b8bfb3c160d8ff03f903a23d2fd4"
+      url "https://raw.githubusercontent.com/cainseing/reelquotes-cli/v1.1.0/bin/reelquotes-linux-arm64"
+      sha256 "159bb2916da14a7dd89c3ce4c7fdea7ea7b9314a0eb6ef0fc4723a19ef5179ca"
     else
-      url "https://raw.githubusercontent.com/cainseing/reelquotes-cli/v1.0.0/bin/reelquotes-linux-amd64"
-      sha256 "0243c7fba24d821a7060700f5169d67e43af83f7990c0ef160cfad04072f3f67"
+      url "https://raw.githubusercontent.com/cainseing/reelquotes-cli/v1.1.0/bin/reelquotes-linux-amd64"
+      sha256 "46be707b1ffc29d04e87ec51ec334a79e7137c5eb74c4ebeb81e2c239fcd558a"
     end
   end
 
