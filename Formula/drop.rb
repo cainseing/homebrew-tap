@@ -1,24 +1,24 @@
 class Drop < Formula
   desc "Secure, zero-knowledge, secret sharing CLI"
   homepage "https://getdrop.dev"
-  version "0.4.0-beta"
+  version "0.4.1-beta"
   license "MIT"
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://raw.githubusercontent.com/cainseing/drop-cli/v0.4.0-beta/bin/drop-darwin-arm64"
-      sha256 "d836e791b73fac067b257505b17b2ab81fdbd67bfc63fd285d2336096b547376"
+      url "https://raw.githubusercontent.com/cainseing/drop-cli/v0.4.1-beta/bin/drop-darwin-arm64"
+      sha256 "94139fcc0f039a140b3ba7f0eb3a1bb79fbb716727c7d1bb3df714a9b7a1a045"
     else
-      url "https://raw.githubusercontent.com/cainseing/drop-cli/v0.4.0-beta/bin/drop-darwin-amd64"
-      sha256 "99893834846e9793fc427edb2e37a8e5c5ac2aa5888cf2832ed74295d37a0fc1"
+      url "https://raw.githubusercontent.com/cainseing/drop-cli/v0.4.1-beta/bin/drop-darwin-amd64"
+      sha256 "2e675e3c786fac4a3e922b9544b2c053f3cfd96327afaab3fcb0cc8577f9b351"
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
-      url "https://raw.githubusercontent.com/cainseing/drop-cli/v0.4.0-beta/bin/drop-linux-arm64"
-      sha256 "408b578c6da8dc45b1f58568293696ca32e73a712316b4edfef3c9f085b373d8"
+      url "https://raw.githubusercontent.com/cainseing/drop-cli/v0.4.1-beta/bin/drop-linux-arm64"
+      sha256 "10d25e0e73389e663a73b0dc58d5c83fe72435f5dec6eed8079010ecb9d11a70"
     else
-      url "https://raw.githubusercontent.com/cainseing/drop-cli/v0.4.0-beta/bin/drop-linux-amd64"
-      sha256 "a69fd4c81f0eb4931e80c5f0dd56501e6c450c430cf21c90164f3dbcca8fe860"
+      url "https://raw.githubusercontent.com/cainseing/drop-cli/v0.4.1-beta/bin/drop-linux-amd64"
+      sha256 "11f0990a34fa1db39a4266ba27230d8f6dd283e66254c14e3285d7850d8892de"
     end
   end
 
